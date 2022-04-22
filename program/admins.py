@@ -25,7 +25,7 @@ from pyrogram.types import (
 )
 
 
-@Client.on_message(command(["/reload", "رسترات", f"reload@{BOT_USERNAME}"]) & other_filters)
+@Client.on_message(command(["/reload", "رستارت", f"reload@{BOT_USERNAME}"]) & other_filters)
 @authorized_users_only
 @check_blacklist()
 async def update_admin(client, message: Message):
