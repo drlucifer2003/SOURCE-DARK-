@@ -16,7 +16,7 @@ def stream_markup(user_id):
       InlineKeyboardButton(text="𝗖𝗹𝗼𝘀𝗲 🗑️", callback_data=f'set_close'),
     ],
     [
-      InlineKeyboardButton("[⌯ 𝗗͛𝗲͛𝘃͛ 𝗦͛𝗺͛𝗦͛𝗺͛ 𝗘͛𝗹͛𝗞͛𝗯͛𝗘͛𝗿͛ - ⌯]𝟏𝟎𝐊🍷𖣩ًََِْٰٓ ⃝⃙🇽🇰 ⌯", callback_data="smsmelkbeer")
+      InlineKeyboardButton("[⌯ 𝗙𝙍𝗔𝙒𝗡 𝙒𝗔 ⌯", callback_data="fr3onelkbeer")
   ]
  ]
   return buttons
@@ -34,7 +34,7 @@ def menu_markup(user_id):
       InlineKeyboardButton(text="𝗨𝗡 𝗠𝗨𝗧𝗘 🔊", callback_data=f'set_unmute | {user_id}'),
     ],
     [
-      InlineKeyboardButton(text="[⌯ 𝗗͛𝗲͛𝘃͛ 𝗦͛𝗺͛𝗦͛𝗺͛ 𝗘͛𝗹͛𝗞͛𝗯͛𝗘͛𝗿͛ - ⌯]𝟏𝟎𝐊🍷𖣩ًََِْٰٓ ⃝⃙🇽🇰 ⌯", callback_data='stream_home_panel'),
+      InlineKeyboardButton(text="[⌯ 𝗙𝙍𝗔𝙒𝗡 𝙒𝗔 ⌯", callback_data='stream_home_panel'),
     ]
   ]
   return buttons
