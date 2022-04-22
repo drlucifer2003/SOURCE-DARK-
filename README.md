@@ -5,7 +5,7 @@
 
 ## Preview
 <p align="center">
-  <img src="https://telegra.ph/file/21a41d5e4636289c2d768.png">
+  <img src="https://telegra.ph/file/d64b81268989e612a55d2.jpg">
 </p>
 
 ## ✨ Features
@@ -85,15 +85,4 @@ vim .env # fill up the ENVs (Steps: press i to enter in insert mode then edit th
 python3 main.py # run the bot.
 
 # continue the host with screen or anything else, thanks for reading.
-```
-
-# Credits 💖
-- [Me](https://github.com/SRTheProgrammer) ``Just Modify``
-- [Levina](https://github.com/levina-lab) ``Dev``
-- [Zxce3](https://github.com/Zxce3) ``Dev``
-- [tofikdn](https://github.com/tofikdn) ``Dev``
-- [Laky's](https://github.com/Laky-64) for [``py-tgcalls``](https://github.com/pytgcalls/pytgcalls)
-- [Dan](https://github.com/delivrance) for [``Pyrogram``](https://github.com/pyrogram)
-
-### Support & Updates 🎑
-<a href="https://t.me/SuraBotSupport"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/SuraBotStats"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
+``
