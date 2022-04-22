@@ -126,7 +126,7 @@ async def play_tg_file(c: Client, m: Message, replied: Message = None, link: str
             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
             buttons = stream_markup(user_id)
             await m.reply_video(
-                video=f"https://telegra.ph/file/519c4cf0ee54eaade0daa.mp4",
+                video=f"https://telegra.ph/file/7bc40245a6a53507f1066.mp4",
                 reply_markup=InlineKeyboardMarkup(buttons),
                 caption=f"💡 **تمت إضافة المسار إلى قائمة الانتظار »** `{pos}`\n\n"
                         f"🗂 **الاسم:** [{songname}]({link}) | `video`\n"
@@ -165,7 +165,7 @@ async def play_tg_file(c: Client, m: Message, replied: Message = None, link: str
             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
             buttons = stream_markup(user_id)
             await m.reply_video(
-                video=f"https://telegra.ph/file/519c4cf0ee54eaade0daa.mp4",
+                video=f"https://telegra.ph/file/7bc40245a6a53507f1066.mp4",
                 reply_markup=InlineKeyboardMarkup(buttons),
                 caption=f"🗂 **الاسم:** [{songname}]({link}) | `video`\n"
                         f"⏱️ **المده:** `{duration}`\n"
@@ -273,7 +273,7 @@ async def vplay(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             buttons = stream_markup(user_id)
                             await m.reply_video(
-                                video=f"https://telegra.ph/file/519c4cf0ee54eaade0daa.mp4",
+                                video=f"https://telegra.ph/file/7bc40245a6a53507f1066.mp4",
                                 reply_markup=InlineKeyboardMarkup(buttons),
                                 caption=f"💡 **تمت إضافة المسار إلى قائمة الانتظار »** `{pos}`\n\n🗂 **الاسم:** [{songname}]({url}) | `video`\n⏱ **المده:** `{duration}`\n🧸 **مطلوبه من:** {requester}",
                             )
@@ -297,7 +297,7 @@ async def vplay(c: Client, m: Message):
                                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                                 buttons = stream_markup(user_id)
                                 await m.reply_video(
-                                    video=f"https://telegra.ph/file/519c4cf0ee54eaade0daa.mp4",
+                                    video=f"https://telegra.ph/file/7bc40245a6a53507f1066.mp4",
                                     reply_markup=InlineKeyboardMarkup(buttons),
                                     caption=f"🗂 **الاسم:** [{songname}]({url}) | `video`\n⏱ **المده:** `{duration}`\n🧸 **مطلوبه من:** {requester}",
                                 )
@@ -358,7 +358,7 @@ async def vplay(c: Client, m: Message):
                         )
                         buttons = stream_markup(user_id)
                         await m.reply_video(
-                            video=f"https://telegra.ph/file/519c4cf0ee54eaade0daa.mp4",
+                            video=f"https://telegra.ph/file/7bc40245a6a53507f1066.mp4",
                             reply_markup=InlineKeyboardMarkup(buttons),
                             caption=f"💡 **تمت إضافة المسار إلى قائمة الانتظار »** `{pos}`\n\n🗂 **الاسم:** [{songname}]({url}) | `video`\n⏱ **المده:** `{duration}`\n🧸 **مطلوبه من:** {requester}",
                         )
@@ -382,7 +382,7 @@ async def vplay(c: Client, m: Message):
                             requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                             buttons = stream_markup(user_id)
                             await m.reply_video(
-                                video=f"https://telegra.ph/file/519c4cf0ee54eaade0daa.mp4",
+                                video=f"https://telegra.ph/file/7bc40245a6a53507f1066.mp4",
                                 reply_markup=InlineKeyboardMarkup(buttons),
                                 caption=f"🗂 **الاسم:** [{songname}]({url}) | `video`\n⏱ **المده:** `{duration}`\n🧸 **مطلوبه من:** {requester}",
                             )
@@ -497,7 +497,7 @@ async def vstream(c: Client, m: Message):
                 requester = f"[{m.from_user.first_name}](tg://user?id={m.from_user.id})"
                 buttons = stream_markup(user_id)
                 await m.reply_video(
-                    video=f"https://telegra.ph/file/519c4cf0ee54eaade0daa.mp4",
+                    video=f"https://telegra.ph/file/7bc40245a6a53507f1066.mp4",
                     reply_markup=InlineKeyboardMarkup(buttons),
                     caption=f"💡 **تمت إضافة المسار إلى قائمة الانتظار »** `{pos}`\n\n🗂 **الاسم:** [{songname}]({url}) | `live`\n🧸 **مطلوبه من:** {requester}",
                 )
@@ -528,7 +528,7 @@ async def vstream(c: Client, m: Message):
                     )
                     buttons = stream_markup(user_id)
                     await m.reply_video(
-                        video=f"https://telegra.ph/file/519c4cf0ee54eaade0daa.mp4",
+                        video=f"https://telegra.ph/file/7bc40245a6a53507f1066.mp4",
                         reply_markup=InlineKeyboardMarkup(buttons),
                         caption=f"🗂 **الاسم:** [{songname}]({url}) | `live`\n🧸 **مطلوبه من:** {requester}",
                     )
