@@ -27,7 +27,7 @@ async def rbic(_, query: CallbackQuery):
         f"""مرحباً بك \n
 ⌁ ⁞  بوت تشغيل الأغاني والفيديو  في المكالمه ' المرئية
  البوت قيد التشغيل الان ⌯
-⌁ ⁞ my developer [[⌯ 𝗗͛𝗲͛𝘃͛ 𝗦͛𝗺͛𝗦͛𝗺͛ 𝗘͛𝗹͛𝗞͛𝗯͛𝗘͛𝗿͛ - ⌯]𝟏𝟎𝐊🍷𖣩ًََِْٰٓ ⃝⃙🇽🇰 ⌯](https://t.me/PV_SMSM)
+⌁ ⁞ my developer [[⌯ 𝗙𝙍𝗔𝙒𝗡 𝙒𝗔 ⌯](https://t.me/DEV_FRAWN)
 ⌁ ⁞  قم بإضافة البوت اللي مجموعتك واستمع إلى الموسيقى ومشاهدة الفيديوهات ⌯""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -40,7 +40,7 @@ async def rbic(_, query: CallbackQuery):
                 [InlineKeyboardButton("- طريقة التفعيل -", callback_data="quick_use")],
                 [
                     InlineKeyboardButton("- طريقة التشغيل -", callback_data="command_list"),
-                    InlineKeyboardButton("- المطور -", url=f"https://t.me/PV_SMSM"),
+                    InlineKeyboardButton("- المطور -", url=f"https://t.me/DEV_FRAWN"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -52,7 +52,7 @@ async def rbic(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "[⌯ 𝗗͛𝗲͛𝘃͛ 𝗦͛𝗺͛𝗦͛𝗺͛ 𝗘͛𝗹͛𝗞͛𝗯͛𝗘͛𝗿͛ - ⌯]𝟏𝟎𝐊🍷𖣩ًََِْٰٓ ⃝⃙🇽🇰 ⌯", url="https://t.me/PV_SMSM"
+                        "[⌯ 𝗙𝙍𝗔𝙒𝗡 𝙒𝗔 ⌯", url="https://t.me/DEV_FRAWN"
                     )
                 ],
             ]
@@ -64,7 +64,7 @@ async def rbic(_, query: CallbackQuery):
 async def nglish(_, query: CallbackQuery):
     await query.answer("home start")
     await query.edit_message_text(
-        f"هنا لنكات تواصل  \n لو احتجت اي حاجه كلم المطور \n عن طريق الضغط علي تواصل واتساب \nاو الضغط علي اسم المطور ده➼ [[⌯ 𝗗͛𝗲͛𝘃͛ 𝗦͛𝗺͛𝗦͛𝗺͛ 𝗘͛𝗹͛𝗞͛𝗯͛𝗘͛𝗿͛ - ⌯]𝟏𝟎𝐊🍷𖣩ًََِْٰٓ ⃝⃙🇽🇰 ⌯](https://t.me/PV_SMSM)",
+        f"هنا لنكات تواصل  \n لو احتجت اي حاجه كلم المطور \n عن طريق الضغط علي تواصل واتساب \nاو الضغط علي اسم المطور ده➼ [[⌯ 𝗙𝙍𝗔𝙒𝗡 𝙒𝗔⌯](https://t.me/𝗙𝙍𝗔𝙒𝗡 𝙒𝗔)",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -73,10 +73,10 @@ async def nglish(_, query: CallbackQuery):
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
-                [InlineKeyboardButton("- للتواصل واتساب -", url=f"http://wa.me/+201025515706")],
+                [InlineKeyboardButton("- للتواصل واتساب -", url=f"http://wa.me/+201010294706")],
                 [
-                    InlineKeyboardButton("- جروب دردشه -", url=f"https://t.me/CO0O00"),
-                    InlineKeyboardButton("- المطور -", url=f"https://t.me/PV_SMSM"),
+                    InlineKeyboardButton("- جروب دردشه -", url=f"https://t.me/f_r_a_w_n_a"),
+                    InlineKeyboardButton("- المطور -", url=f"https://t.me/DEV_FRAWN"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -88,7 +88,7 @@ async def nglish(_, query: CallbackQuery):
                 ],
                 [
                     InlineKeyboardButton(
-                        "[⌯ 𝗗͛𝗲͛𝘃͛ 𝗦͛𝗺͛𝗦͛𝗺͛ 𝗘͛𝗹͛𝗞͛𝗯͛𝗘͛𝗿͛ - ⌯]𝟏𝟎𝐊🍷𖣩ًََِْٰٓ ⃝⃙🇽🇰 ⌯", url="https://t.me/PV_SMSM"
+                        "[⌯ 𝗙𝙍𝗔𝙒𝗡 𝙒𝗔 ⌯", url="https://t.me/DEV_FRAWN"
                     )
                 ],
             ]
